@@ -54,6 +54,16 @@
             ],
             "source": "genHist.R",
             "target": "histPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genHist.R",
+            "target": "histMurder.png"
         }
     ],
     "nodes": [
@@ -81,6 +91,6 @@
             "name": "histMurder.png"
         }
     ],
-    "updated_at": "2018-10-03 22:13:00",
+    "updated_at": "2018-10-03 22:13:11",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

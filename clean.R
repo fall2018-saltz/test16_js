@@ -1,7 +1,8 @@
 
-str(raw_data)
-clean_data <- raw_data
+#str(raw_data)
 
+clean_data <- readStates(raw_data)
+str(clean_data)
 readStates <- function(states)
 {
   # remove rows that not needed

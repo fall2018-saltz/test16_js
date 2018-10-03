@@ -249,8 +249,11 @@
         },
         {
             "name": "barchartMurderRateWithPer.png"
+        },
+        {
+            "name": "scatterPlot.png"
         }
     ],
-    "updated_at": "2018-10-03 22:29:29",
+    "updated_at": "2018-10-03 22:30:54",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

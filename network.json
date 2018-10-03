@@ -63,7 +63,7 @@
                 }
             ],
             "source": "genHist.R",
-            "target": "hist.png"
+            "target": "histPop.png"
         }
     ],
     "nodes": [
@@ -81,7 +81,7 @@
             "name": "genHist.R"
         },
         {
-            "name": "hist.png"
+            "name": "histPop.png"
         },
         {
             "name": "basicInfo.txt"
@@ -91,6 +91,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-03 22:09:37",
+    "updated_at": "2018-10-03 22:10:15",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

@@ -33,6 +33,16 @@
             ],
             "source": "data.csv",
             "target": "genHist.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histOut",
+                    "type": "png"
+                }
+            ],
+            "source": "genHist.R",
+            "target": "hist.png"
         }
     ],
     "nodes": [
@@ -53,6 +63,6 @@
             "name": "hist.png"
         }
     ],
-    "updated_at": "2018-10-03 21:13:26",
+    "updated_at": "2018-10-03 21:13:37",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

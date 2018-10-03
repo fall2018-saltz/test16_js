@@ -134,6 +134,16 @@
             ],
             "source": "cleanData.csv",
             "target": "genBoxplots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "genBoxplots.R",
+            "target": "boxPopulation.png"
         }
     ],
     "nodes": [
@@ -192,6 +202,6 @@
             "name": "boxMurder.png"
         }
     ],
-    "updated_at": "2018-10-03 22:23:28",
+    "updated_at": "2018-10-03 22:23:42",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

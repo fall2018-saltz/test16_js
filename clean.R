@@ -1,3 +1,3 @@
 
-str(raw_datra)
+str(raw_data)
 clean_data <- raw_data

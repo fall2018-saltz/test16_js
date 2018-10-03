@@ -1,4 +1,5 @@
 
+library(ggplot)
 # Histogram for Population
 myPlotPop <- ggplot(mergeDF, aes(x=population))
 myPlotPop <- myPlotPop + geom_histogram(binwidth=500000)    # think about what is a good bin width 

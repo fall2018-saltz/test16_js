@@ -144,6 +144,16 @@
             ],
             "source": "genBoxplots.R",
             "target": "boxPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genBoxplots.R",
+            "target": "boxMurder.png"
         }
     ],
     "nodes": [
@@ -202,6 +212,6 @@
             "name": "boxMurder.png"
         }
     ],
-    "updated_at": "2018-10-03 22:23:42",
+    "updated_at": "2018-10-03 22:23:52",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

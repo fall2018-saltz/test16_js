@@ -22,7 +22,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "data.csv"
+            "target": "cleanCensus.csv"
         },
         {
             "ports": [
@@ -31,7 +31,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "data.csv",
+            "source": "cleanCensus.csv",
             "target": "genHist.R"
         },
         {
@@ -63,7 +63,7 @@
             "name": "clean.R"
         },
         {
-            "name": "data.csv"
+            "name": "cleanCensus.csv"
         },
         {
             "desc": "",
@@ -76,6 +76,6 @@
             "name": "basicInfo.txt"
         }
     ],
-    "updated_at": "2018-10-03 21:18:43",
+    "updated_at": "2018-10-03 21:28:17",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

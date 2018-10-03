@@ -20,3 +20,6 @@ readStates <- function(states)
   # return the results
   return(states)
 }
+
+clean_data <- readStates(raw_data)
+str(clean_data)

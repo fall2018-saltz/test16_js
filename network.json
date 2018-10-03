@@ -94,6 +94,16 @@
             ],
             "source": "cleanData.csv",
             "target": "calcNumMurders.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "dfOut",
+                    "type": "csv"
+                }
+            ],
+            "source": "calcNumMurders.R",
+            "target": "UpdatedData.csv"
         }
     ],
     "nodes": [
@@ -134,6 +144,6 @@
             "name": "UpdatedData.csv"
         }
     ],
-    "updated_at": "2018-10-03 22:18:26",
+    "updated_at": "2018-10-03 22:18:42",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

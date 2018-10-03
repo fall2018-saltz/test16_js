@@ -27,16 +27,6 @@
         {
             "ports": [
                 {
-                    "output": "outTxt",
-                    "type": "txt"
-                }
-            ],
-            "source": "genHist.R",
-            "target": "basicInfo.txt"
-        },
-        {
-            "ports": [
-                {
                     "input": "census",
                     "output": "cleanCensus",
                     "type": "r_obj"
@@ -84,13 +74,10 @@
             "name": "histPop.png"
         },
         {
-            "name": "basicInfo.txt"
-        },
-        {
             "desc": "",
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-03 22:10:15",
+    "updated_at": "2018-10-03 22:10:25",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

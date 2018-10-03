@@ -23,4 +23,4 @@ histAssault <- myPlotAst
 myPlotRape <- ggplot(df, aes(x=Rape))
 myPlotRape <- myPlotRape + geom_histogram(binwidth=1)    # think about what is a good bin width 
 myPlotRape <- myPlotRape + ggtitle("Histogram of # of Rapes")
-histRapes <- myPlotRape
+histRape <- myPlotRape

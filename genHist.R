@@ -1,3 +1,3 @@
 
 str(df)
-histOut <- hist(df$)
+histOut <- hist(df$POPESTIMATE2017)

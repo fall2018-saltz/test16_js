@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "genHist.R"
         }
     ],
     "nodes": [
@@ -40,6 +50,6 @@
             "name": "genHist.R"
         }
     ],
-    "updated_at": "2018-10-03 21:13:01",
+    "updated_at": "2018-10-03 21:13:15",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

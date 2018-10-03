@@ -17,16 +17,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "cleanCensus.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "df",
                     "type": "csv"
                 }
@@ -53,6 +43,17 @@
             ],
             "source": "genHist.R",
             "target": "basicInfo.txt"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
@@ -80,6 +81,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-03 21:29:08",
+    "updated_at": "2018-10-03 21:29:52",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

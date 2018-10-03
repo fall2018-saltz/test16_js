@@ -146,8 +146,12 @@
         {
             "desc": "",
             "name": "genBarcharts.R"
+        },
+        {
+            "desc": "",
+            "name": "genScatter.R"
         }
     ],
-    "updated_at": "2018-10-03 22:18:58",
+    "updated_at": "2018-10-03 22:19:12",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

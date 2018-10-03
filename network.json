@@ -43,6 +43,16 @@
             ],
             "source": "genHist.R",
             "target": "hist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "outTxt",
+                    "type": "txt"
+                }
+            ],
+            "source": "genHist.R",
+            "target": "basicInfo.txt"
         }
     ],
     "nodes": [
@@ -66,6 +76,6 @@
             "name": "basicInfo.txt"
         }
     ],
-    "updated_at": "2018-10-03 21:18:27",
+    "updated_at": "2018-10-03 21:18:43",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

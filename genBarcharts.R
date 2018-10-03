@@ -1,4 +1,5 @@
 
+library(ggplot2)
 # 8)	Generate a bar chart, with the number of murders per state
 # Hint: use the geom_col function
  g <- ggplot(df, aes(x=stateName, y=numMurders)) + geom_col()

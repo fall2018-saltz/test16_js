@@ -84,6 +84,16 @@
             ],
             "source": "genHist.R",
             "target": "histRape.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanData.csv",
+            "target": "calcNumMurders.R"
         }
     ],
     "nodes": [
@@ -121,6 +131,6 @@
             "name": "calcNumMurders.R"
         }
     ],
-    "updated_at": "2018-10-03 22:17:54",
+    "updated_at": "2018-10-03 22:18:09",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

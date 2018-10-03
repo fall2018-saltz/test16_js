@@ -54,6 +54,16 @@
             ],
             "source": "clean.R",
             "target": "MergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "cleanData.csv"
         }
     ],
     "nodes": [
@@ -81,6 +91,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-03 21:33:31",
+    "updated_at": "2018-10-03 21:33:41",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

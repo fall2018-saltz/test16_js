@@ -184,6 +184,16 @@
             ],
             "source": "genBarcharts.R",
             "target": "barchartMurderRateWithPer.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "genScatter.R",
+            "target": "scatterPlot.png"
         }
     ],
     "nodes": [
@@ -254,6 +264,6 @@
             "name": "scatterPlot.png"
         }
     ],
-    "updated_at": "2018-10-03 22:30:54",
+    "updated_at": "2018-10-03 22:31:05",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

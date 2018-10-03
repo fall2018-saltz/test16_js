@@ -104,6 +104,16 @@
             ],
             "source": "calcNumMurders.R",
             "target": "UpdatedData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "UpdatedData.csv",
+            "target": "genBarcharts.R"
         }
     ],
     "nodes": [
@@ -152,6 +162,6 @@
             "name": "genScatter.R"
         }
     ],
-    "updated_at": "2018-10-03 22:19:12",
+    "updated_at": "2018-10-03 22:19:25",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

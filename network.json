@@ -27,16 +27,6 @@
         {
             "ports": [
                 {
-                    "output": "histOut",
-                    "type": "png"
-                }
-            ],
-            "source": "genHist.R",
-            "target": "hist.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "outTxt",
                     "type": "txt"
                 }
@@ -64,6 +54,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "cleanData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histPolulation",
+                    "type": "png"
+                }
+            ],
+            "source": "genHist.R",
+            "target": "hist.png"
         }
     ],
     "nodes": [
@@ -91,6 +91,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-03 21:33:41",
+    "updated_at": "2018-10-03 22:09:37",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

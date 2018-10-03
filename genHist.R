@@ -17,7 +17,7 @@ histMurder <- myPlotMur
 myPlotAst <- ggplot(df, aes(x=Assault))
 myPlotAst <- myPlotAst + geom_histogram(binwidth=100)    # think about what is a good bin width 
 myPlotAst <- myPlotAst + ggtitle("Histogram of Assaults")
-histAssaults <- myPlotAst
+histAssault <- myPlotAst
 
 # Histogram for Rape
 myPlotRape <- ggplot(df, aes(x=Rape))

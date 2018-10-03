@@ -154,6 +154,16 @@
             ],
             "source": "genBoxplots.R",
             "target": "boxMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchartMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genBarcharts.R",
+            "target": "barchartMurder.png"
         }
     ],
     "nodes": [
@@ -221,6 +231,6 @@
             "name": "barchartMurderRateWithPer.png"
         }
     ],
-    "updated_at": "2018-10-03 22:28:45",
+    "updated_at": "2018-10-03 22:29:04",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

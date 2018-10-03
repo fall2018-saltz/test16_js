@@ -115,8 +115,12 @@
         },
         {
             "name": "histRape.png"
+        },
+        {
+            "desc": "",
+            "name": "calcNumMurders.R"
         }
     ],
-    "updated_at": "2018-10-03 22:13:58",
+    "updated_at": "2018-10-03 22:17:54",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

@@ -124,6 +124,16 @@
             ],
             "source": "UpdatedData.csv",
             "target": "genScatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanData.csv",
+            "target": "genBoxplots.R"
         }
     ],
     "nodes": [
@@ -176,6 +186,6 @@
             "name": "genBoxplots.R"
         }
     ],
-    "updated_at": "2018-10-03 22:21:55",
+    "updated_at": "2018-10-03 22:22:05",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

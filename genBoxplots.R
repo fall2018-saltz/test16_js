@@ -1,4 +1,5 @@
 
+library(ggplot2)
 # Boxplot for Population
 myboxPlotPop <- ggplot(df, aes(x=factor(0), y=population)) + geom_boxplot()
 boxPopulation <- myboxPlotPop

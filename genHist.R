@@ -3,7 +3,7 @@ library(ggplot2)
 
 # Histogram for Population
 myPlotPop <- ggplot(df, aes(x=population))
-myPlotPop <- myPlotPop + geom_histogram(binwidth=500000)    # think about what is a good bin width 
+myPlotPop <- myPlotPop + geom_histogram(binwidth=5000000)    # think about what is a good bin width 
 myPlotPop <- myPlotPop + ggtitle("Histogram of population")
 histPopulation <- myPlotPop
 

@@ -264,9 +264,9 @@
             "assigned_to": "jsaltz",
             "desc": "",
             "name": "clean.R",
-            "task_status": "proposed"
+            "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-04 12:41:17",
+    "updated_at": "2018-10-04 12:41:31",
     "url": "https://github.com/fall2018-saltz/test16_js"
 }

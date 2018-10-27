@@ -1,0 +1,272 @@
+{
+    "collaborators": [
+        "jsaltz"
+    ],
+    "created_at": "2018-10-03 21:10:26",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanData.csv",
+            "target": "genHist.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "cleanData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "genHist.R",
+            "target": "histPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genHist.R",
+            "target": "histMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histAssault",
+                    "type": "png"
+                }
+            ],
+            "source": "genHist.R",
+            "target": "histAssault.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histRape",
+                    "type": "png"
+                }
+            ],
+            "source": "genHist.R",
+            "target": "histRape.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanData.csv",
+            "target": "calcNumMurders.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "dfOut",
+                    "type": "csv"
+                }
+            ],
+            "source": "calcNumMurders.R",
+            "target": "UpdatedData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "UpdatedData.csv",
+            "target": "genBarcharts.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "UpdatedData.csv",
+            "target": "genScatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanData.csv",
+            "target": "genBoxplots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "genBoxplots.R",
+            "target": "boxPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genBoxplots.R",
+            "target": "boxMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchartMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genBarcharts.R",
+            "target": "barchartMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchartMurderRate",
+                    "type": "png"
+                }
+            ],
+            "source": "genBarcharts.R",
+            "target": "barchartMurderRate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchartMurderRateWithPercent",
+                    "type": "png"
+                }
+            ],
+            "source": "genBarcharts.R",
+            "target": "barchartMurderRateWithPer.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "genScatter.R",
+            "target": "scatterPlot.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "cleanData.csv"
+        },
+        {
+            "desc": "",
+            "name": "genHist.R"
+        },
+        {
+            "name": "histPop.png"
+        },
+        {
+            "desc": "",
+            "name": "MergeArrests.R"
+        },
+        {
+            "name": "histMurder.png"
+        },
+        {
+            "name": "histAssault.png"
+        },
+        {
+            "name": "histRape.png"
+        },
+        {
+            "desc": "",
+            "name": "calcNumMurders.R"
+        },
+        {
+            "name": "UpdatedData.csv"
+        },
+        {
+            "desc": "",
+            "name": "genBarcharts.R"
+        },
+        {
+            "desc": "",
+            "name": "genScatter.R"
+        },
+        {
+            "desc": "",
+            "name": "genBoxplots.R"
+        },
+        {
+            "name": "boxPopulation.png"
+        },
+        {
+            "name": "boxMurder.png"
+        },
+        {
+            "name": "barchartMurder.png"
+        },
+        {
+            "name": "barchartMurderRate.png"
+        },
+        {
+            "name": "barchartMurderRateWithPer.png"
+        },
+        {
+            "name": "scatterPlot.png"
+        },
+        {
+            "assigned_to": "jsaltz",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "completed"
+        }
+    ],
+    "updated_at": "2018-10-04 12:44:20",
+    "url": "https://github.com/fall2018-saltz/test16_js"
+}
